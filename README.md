@@ -32,7 +32,8 @@ This project proposes a car accident alert system that can automatically detect 
 -  GPS module
 
 #### Software:
-- Tinkercad simulation platform 
+- Tinkercad simulation platform
+- Kicad or EasyEda for PCB design
 - Twilio account (for SMS notification)
 - Google Maps API
 
