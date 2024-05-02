@@ -21,17 +21,17 @@ This project proposes a car accident alert system that can automatically detect 
 
 ### Components Required:
 #### Hardware:
-- Arduino Uno 
+- Arduino Uno(nano)
 - Accelerometer 
 - Wifi module(ESP8266)
 - LCD screen 
 - Breadboard and jumper wires
-- Push button 
 - DC power supply
 - Ultrasonic motion sensor
+-  GPS module
 
 #### Software:
 - Tinkercad simulation platform 
 - Twilio account (for SMS notification)
 - Google Maps API
-- GPS module
+
