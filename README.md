@@ -1,9 +1,10 @@
-# Armel Munyaneza
+# Armel Munyaneza in collaboration with [saveur](https://github.com/saveur1)
+
 
 ## About Me
 Hello, my name is Armel Munyaneza. I am currently a third-year student at the University of Rwanda, majoring in Computer and Software Engineering. Alongside my studies, I am an avid full-stack developer with a passion for integrating various technologies. In my leisure time, I enjoy playing football and maintaining an active lifestyle through regular gym sessions. Additionally, I find solace in reading self-help books to continuously enhance my personal development. Attending embedded systems training aligns with my aspirations to expand my knowledge and skill set, allowing me to seamlessly incorporate embedded systems into my projects and pursue a fulfilling career in this field.
 
-## Project: A Smart Car Accident Alert System for Real-Time Help
+## Project: A Smart Car Accident Alert System for Real-Time Help 
 
 ### Problem:
 Road accidents are a leading cause of injury and death globally. Even with advancements in car safety features, a critical factor in improving outcomes is the time it takes for emergency responders to reach the scene. Delays can lead to serious complications and loss of life.
