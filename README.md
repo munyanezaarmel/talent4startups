@@ -36,3 +36,16 @@ This project proposes a car accident alert system that can automatically detect 
 - Twilio account (for SMS notification)
 - Google Maps API
 
+### Project Functionality:
+- The accelerometer continuously measures acceleration (g-forces) along the X, Y, and Z axes.
+- Pre-defined thresholds are set for each axis to represent a potential collision based on estimated g-forces during an impact.
+- A threshold distance (e.g., 30 cm) is set for the ultrasonic sensor to indicate an imminent collision.
+- If either the accelerometer readings exceed their thresholds (sudden acceleration) or the ultrasonic sensor detects a distance less than the threshold (close proximity), a potential collision is detected.
+- Upon collision detection:
+  - (An LCD displays a message like "Collision Detected!" and the measured distance.
+  - A buzzer sounds as an alarm.
+  - The ESP8266 module connects to a Wi-Fi network.
+  - An SMS notification is sent via Twilio, including:
+    - A message like "Car Accident! Help Needed!"
+    - A Google Maps link to the accident location (using latitude and longitude data retrieved from a GPS module or smartphone; not simulated in Tinkercad).
+- The system is configured to transmit data continuously to a cloud platform like Thingspeak for data logging and visualization.
